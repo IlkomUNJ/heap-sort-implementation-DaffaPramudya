@@ -1,9 +1,9 @@
 # MaxHeap Implementation in C++
 
 ## Identitas
-Nama: Daffa Pramudya Ismanto
-NIM: 1313623051
-Program Studi: Ilmu Komputer 2023 A
+- Nama: Daffa Pramudya Ismanto
+- NIM: 1313623051
+- Program Studi: Ilmu Komputer 2023 A
 
 ## Fitur
 - Membangun Max Heap dari array yang diberikan.
