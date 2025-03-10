@@ -1,11 +1,40 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NqT6D9pg)
-# Manual
-1. We are giving starter codes for Vala. But if you used different language, feel free to override the whole repository.
-2. When you accept the invite link, a separate fork repo will be created in your github space.
-3. Clone the forked repo to your local computer
-4. Create a readme which state your identity and add instruction in how to compile and run your program
-5. Replace any sources with your codes manually by copy paste from your sources
-6. Make commit and push to your repo
-7. That's it, any commit you made will get notified in the master repo. Please do not make a pull request to the master.
+# MaxHeap Implementation in C++
 
-Apologize for the delay, it's relatively hard to setup initial github classroom since the repo need to be configured in strictly specific condition.
+## Fitur
+- Membangun Max Heap dari array yang diberikan.
+- Menampilkan setiap langkah heapification selama proses pembentukan heap.
+- Mencetak heap akhir setelah semua elemen terurut sesuai aturan Max Heap.
+
+## Struktur Kode
+Kode terdiri dari kelas `MaxHeap` yang memiliki:
+1. **Constructor**: Membangun Max Heap dari array input.
+2. **maxHeapify**: Fungsi rekursif untuk menjaga properti Max Heap.
+3. **printStep**: Fungsi untuk mencetak setiap langkah proses heapification.
+4. **printHeap**: Fungsi untuk mencetak hasil akhir Max Heap.
+
+## Cara Kompilasi dan Eksekusi
+### Persyaratan
+- Compiler C++ (misalnya, g++)
+
+### Langkah-langkah Kompilasi
+1. Simpan kode dalam file, misalnya `max_heap.cpp`.
+2. Buka terminal atau command prompt, lalu navigasikan ke direktori tempat file disimpan.
+3. Jalankan perintah berikut untuk mengompilasi:
+   ```sh
+   g++ -o hw1 hw1.cpp
+   ```
+4. Jalankan program dengan perintah:
+   ```sh
+   ./hw1
+   ```
+
+## Contoh Output
+```
+Initial array: 100 5 9 6 8 20 10 12 18 9
+Heapify step: 100 5 9 18 8 20 10 12 6 9
+Heapify step: 100 8 9 18 5 20 10 12 6 9
+Heapify step: 100 18 9 12 8 20 10 5 6 9
+Heapify step: 100 18 20 12 8 9 10 5 6 9
+Final Max Heap: 100 18 20 12 8 9 10 5 6 9
+```
+
